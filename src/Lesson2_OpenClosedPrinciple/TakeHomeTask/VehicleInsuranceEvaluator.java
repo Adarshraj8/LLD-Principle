@@ -1,31 +1,31 @@
-package Lesson2_OpenClosedPrinciple.TakeHomeTask;
+// package Lesson2_OpenClosedPrinciple.TakeHomeTask;
 
-class InsuranceQuote {
+// class InsuranceQuote {
 
-}
+// }
 
-class Vehicle {
+// class Vehicle {
 
-}
+// }
 
-class Car extends Vehicle {
+// class Car extends Vehicle {
 
-}
+// }
 
-class Truck extends Vehicle {
+// class Truck extends Vehicle {
 
-}
+// }
 
-public class VehicleInsuranceEvaluator {
+// public class VehicleInsuranceEvaluator {
 
-    public InsuranceQuote evaluateInsurance(Vehicle vehicle) {
-        if (vehicle instanceof Car) {
-            // Logic for car insurance
-            return new InsuranceQuote(/* some parameters */);
-        } else if (vehicle instanceof Truck) {
-            // Logic for truck insurance
-            return new InsuranceQuote(/* some parameters */);
-        }
-        throw new IllegalArgumentException("Unsupported vehicle type.");
-    }
-}
+//     public InsuranceQuote evaluateInsurance(Vehicle vehicle) {
+//         if (vehicle instanceof Car) {
+//             // Logic for car insurance
+//             return new InsuranceQuote(/* some parameters */);
+//         } else if (vehicle instanceof Truck) {
+//             // Logic for truck insurance
+//             return new InsuranceQuote(/* some parameters */);
+//         }
+//         throw new IllegalArgumentException("Unsupported vehicle type.");
+//     }
+// }
